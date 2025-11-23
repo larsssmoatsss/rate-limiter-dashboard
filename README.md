@@ -35,8 +35,10 @@ Rate limiting controls how many requests can be made to an API within a specific
 
 ## Live Demo
 
-- Frontend: [Add Vercel URL here after deployment]
-- Backend API: [Add Render URL here after deployment]
+- Frontend: https://rate-limiter-dashboard.vercel.app
+- Backend API: https://rate-limiter-api-lcsf.onrender.com
+
+**Note**: The backend is hosted on Render's free tier, which spins down after periods of inactivity. The first API request after inactivity may take 20-30 seconds to respond while the server restarts. Subsequent requests will be instant. In a production environment, this would use an always-on instance for consistent performance.
 
 ## Local Development
 
@@ -120,7 +122,7 @@ For production systems, especially billing and payment processing:
 
 ## Author
 
-Built by Lars - Computer Science student at UNC Charlotte
+Built by Lars M. - Computer Science student at UNC Charlotte
 
 Demonstrating production-ready backend concepts including middleware, API design, and resource management.
 
